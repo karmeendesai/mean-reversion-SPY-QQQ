@@ -12,6 +12,7 @@ The goal is to analyze whether deviations in the SPY-QQQ spread tend to revert t
     - QQQ (Nasdaq-100 ETF)
 - Source: Yahoo Finance
 - Time period: 2015 - 2024
+- ![SPY vs QQQ Prices](spy_qqq_prices.png)
 
 ---
 
@@ -19,6 +20,7 @@ The goal is to analyze whether deviations in the SPY-QQQ spread tend to revert t
 1. Computed the daily price spread between SPY and QQQ
 2. Calculated rolling mean and standard deviation of the spread
 3. Converted spread deviations into z-scores
+- ![Spread Z-Score](spy_qqq_spread_zscore.png)
 4. Generated trading signals based on z-score thresholds:
     - Long spread when z-score <= -1
     - Short spread when z-score >= 1
@@ -40,6 +42,7 @@ The goal is to analyze whether deviations in the SPY-QQQ spread tend to revert t
 - Risk-adjusted performance improves under certain parameter combinations
 - The strategy underperforms during strong trending bull markets
 - Transaction costs materially reduce overall performance
+- ![Strategy vs Buy and Hold SPY](strategy_vs_buy_and_hold_spy.png)
 
 ---
 
